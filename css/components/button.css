@@ -1,0 +1,21 @@
+.btn {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: x-large;
+  background: linear-gradient(#099202, #7fce51);
+  transition: background 0.3s ease;
+  border: 1px solid #099202;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.btn:hover {
+  background: linear-gradient(#7fce51, #099202);
+  color: white;
+}
+
+.btn:any-link {
+  cursor: auto;
+}
